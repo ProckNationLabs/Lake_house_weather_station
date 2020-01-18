@@ -1,3 +1,3 @@
 # Lake_house_weather_station
 A weather station at my lake house in north Texas. Uses weather vanes from Sparkfun, multiple Arduino based MCUs, Pololu wixels for wireless data connection to the outdoor weather sensor suite.
-During the prototyping and initial testing of 
+During the prototyping and initial testing of weather station it will be using Adafruit IO as the MQTT broker which is where the sensor data is reported to. From there the data is sent to all subscribers in which one of them will be a database server. This data is going to be stored in database to allow reports to be generated to show weather trends and eventually after enough data is gathered weather forecasts can be generated.
